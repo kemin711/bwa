@@ -17,3 +17,4 @@ LDADD = libbwa.la
 bwa_SOURCES = main.c $(appsources) $(libheaders) $(appheaders)
 bwamem_light_SOURCES = example.c bwamem.h kseq.h
 
+dist_bin_SCRIPTS = xa2multi.pl qualfa2fq.pl

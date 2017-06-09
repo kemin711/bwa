@@ -56,5 +56,6 @@ AC_FUNC_FORK
 AC_CHECK_FUNCS([dup2 ftruncate gettimeofday memmove memset munmap select socket sqrt strdup strerror strstr strtol])
 
 AC_CONFIG_FILES([Makefile
-					  src/Makefile])
+					src/Makefile 
+				  docs/Makefile])
 AC_OUTPUT
